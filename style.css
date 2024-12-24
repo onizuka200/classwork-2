@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  max-width: 1440px;
+}
+
+.above-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+.logo {
+  width: 148px;
+  height: 44px;
+
+  margin: 80px 1088px 16px 60px;
+}
+
+.description {
+  width: 285px;
+  height: 48px;
+  margin: 0px 1088px 172px 60px;
+  color: #13131360;
+}
+
+.contact {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+  color: #13131360;
+}
+
+li {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.about,
+.community,
+.socials {
+  width: 152px;
+  height: 244px;
+  margin-top: 80px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.below-container {
+  display: flex;
+  border-top: solid #13131316;
+}
+
+.reserve {
+  height: 24px;
+  width: 292px;
+  margin: 36px 680px 60px 60px;
+}
+
+.help {
+  display: flex;
+  padding: 36px;
+  gap: 60px;
+}
+
+.help div {
+  width: 144px;
+  height: 24px;
+  font-weight: bold;
+}
